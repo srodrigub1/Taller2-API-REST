@@ -1,0 +1,27 @@
+{
+  "name": "arbitros-api",
+  "version": "1.0.0",
+  "description": "API REST de Árbitros en Node.js/Express que consume la API Spring Boot del Entregable 1",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "lint": "echo \"(opcional) agrega ESLint\""
+  },
+  "keywords": [
+    "express",
+    "arbitros",
+    "swagger",
+    "docker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}

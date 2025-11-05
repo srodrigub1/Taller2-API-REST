@@ -1,0 +1,9 @@
+services:
+  arbitros-api:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - SPRING_API_BASE=http://host.docker.internal:8080/api
+      - S3_PUBLIC_IMAGES=
